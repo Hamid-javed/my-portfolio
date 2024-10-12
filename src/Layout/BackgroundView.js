@@ -43,7 +43,6 @@ function BackgroundView({ children }) {
             <Particles
                 id="tsparticles"
                 init={particlesInit}
-                loaded={particlesLoaded}
                 options={{
                     // autoPlay: true,
                     // background: {
