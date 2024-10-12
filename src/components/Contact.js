@@ -147,9 +147,9 @@ function Contact() {
   }, [result]);
 
   return (
-    <div id='contact' className='flex sm:px-5 mt-10 tm:py-0 sm:py-0 sm:mt-14 tm:flex-col gap-20 sm:gap-6 tm:gap-6 sm:flex-col'>
+    <div id='contact' className='flex-col sm:px-5 mt-10 tm:py-0 sm:py-0 sm:mt-14 tm:flex-col gap-20 sm:gap-6 tm:gap-6 sm:flex-col'>
       {/* Left Section */}
-      <div className='flex flex-col pl-20 w-full tm:w-full sm:w-full tm:mb-6 sm:mb-6'>
+      <div className='flex flex-col px-6 lg:pl-16 w-full mb-6'>
         <h1 className='text-[#ec6e59] tracking-wider font-semibold text-lg lg:text-2xl sm:text-sm sm:w-full'>
           Contact Me
         </h1>
@@ -174,7 +174,7 @@ function Contact() {
 
       {/* Form Section */}
       <div className='flex justify-center w-full'>
-        <form className='flex flex-col gap-4 tm:w-full sm:w-full lg:w-10/12' onSubmit={onSubmit}>
+        <form className='flex flex-col gap-4 px-6 lg:px-16 w-full' onSubmit={onSubmit}>
           <label htmlFor="name">Name</label>
           <input
             id="name"
@@ -211,7 +211,7 @@ function Contact() {
       </div>
 
       {/* Footer Section */}
-      <div className='flex justify-center items-center font-light text-xs sm:text-base'>
+      <div className='flex justify-center items-center font-light text-xs sm:text-base mt-12 mb-2'>
         Copyright © 2024
         <span className='font-semibold'>&nbsp;Hamid&nbsp;</span>
         All Rights Reserved
