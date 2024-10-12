@@ -1,20 +1,8 @@
-// import RestCountries from "./../assets/portfolioImages/restcountries.jpg";
-// import SpaceTourism from "./../assets/portfolioImages/spacetourism.jpg";
-// import Advice from "./../assets/portfolioImages/advice.jpg";
-// import Page from "./../assets/portfolioImages/intropage.jpg";
-// import AWS from "./../assets/portfolioImages/s3.PNG";
-// import Todo from "./../assets/portfolioImages/todo.jpg"
-// import Vanlife from "./../assets/portfolioImages/vanlife.png"
 import Elearn from "./../assets/portfolioImages/elearn.png"
 import LinkUp from "./../assets/portfolioImages/linkup.png"
 import Soicalmedia from "./../assets/portfolioImages/socialmedia.png"
 import DemoPortfolio from "./../assets/portfolioImages/demo-profolio.png"
 import ElarnAdmin from "./../assets/portfolioImages/E-learn-admin.png"
-
-// in progress projects
-
-// import Servista from './../assets/portfolioImages/servista.png'
-// import landingPage from './../assets/portfolioImages/url.jpg'
 
 const ProjectsData = [
   {
@@ -121,4 +109,6 @@ const ProjectsData = [
 
 // ];
 
-export default { ProjectsData } 
+const projects = { ProjectsData };
+
+export default projects;

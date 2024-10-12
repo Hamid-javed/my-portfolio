@@ -154,13 +154,13 @@ function Contact() {
           Contact Me
         </h1>
         <div className="flex flex-col gap-3 mt-4">
-          <p className='cursor-pointer'>
+          <div className='cursor-pointer'>
             Feel Free to Contact!
             <div className="flex items-center gap-2 mt-2">
               <IoMailOutline className='text-2xl text-[#ec6e59]' />
               <GmailCopy />
             </div>
-          </p>
+          </div>
           <div className="flex items-center gap-2">
             <FaPhone className='text-[#ec6e59] text-xl' />
             <PhoneCopy />

@@ -8,36 +8,6 @@ function BackgroundView({ children }) {
         await loadFull(main);
     };
 
-    const particlesOptions = {
-        // Paste the entire particle configuration JSON you shared here
-        "autoPlay": true,
-        "background": {
-            "color": { "value": "#000000" },
-            "opacity": 1
-        },
-        "fpsLimit": 120,
-        "interactivity": {
-            "detectsOn": "window",
-            "events": {
-                "onClick": { "enable": true, "mode": "push" },
-                "onHover": { "enable": true, "mode": "repulse" }
-            },
-            "modes": {
-                "repulse": { "distance": 200, "duration": 0.4 }
-            }
-        },
-        "particles": {
-            "number": { "value": 80, "density": { "enable": true, "area": 800 } },
-            "color": { "value": "#ff0000" },
-            "opacity": { "value": 0.5 },
-            "size": { "value": { "min": 1, "max": 3 } },
-            "move": { "enable": true, "speed": 6, "direction": "none" },
-            "links": { "enable": true, "color": "#ffffff", "distance": 150 }
-        },
-        "fullScreen": { "enable": true },
-        "detectRetina": true
-    };
-
     return (
         <div id="particles-js">
             <Particles
