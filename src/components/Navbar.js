@@ -4,7 +4,6 @@ import { SiReactos } from "react-icons/si";
 import MyCV from "./MyCV.js"
 
 function Navbar() {
-    const [colorTheme, setColorTheme] = useState('light');
     const [showMenu, setShowMenu] = useState(false);
 
     const scrollToComponent = (componentId) => {

@@ -8,11 +8,6 @@ function BackgroundView({ children }) {
         await loadFull(main);
     };
 
-    const particlesLoaded = (container) => {
-        // console.log(container);
-    };
-
-
     const particlesOptions = {
         // Paste the entire particle configuration JSON you shared here
         "autoPlay": true,
