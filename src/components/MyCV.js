@@ -1,0 +1,18 @@
+import React from 'react';
+
+const DownloadCVButton = () => {
+    const pdfUrl = '/MyCV.pdf';
+
+    return (
+        <a
+            href={pdfUrl}
+            download // This attribute prompts the download
+            className="px-4 py-2 bg-[#ec6e59] text-white rounded hover:bg-[#d55e4d] transition duration-300"
+        >
+            Download CV
+        </a>
+    );
+};
+
+export default DownloadCVButton;
+
