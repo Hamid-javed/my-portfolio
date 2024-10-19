@@ -10,7 +10,7 @@ const ProjectsData = [
     img: Elearn,
     name: "Project E-Learning",
     stack: ["< RESTful API />", "< Bootstrap v5 />", "< React.js />"],
-    live: "https://link-upsocial.netlify.app/",
+    live: "https://elearnportal.uno/login",
     source: "https://github.com/Hamid-javed/E-learn-frontend.git",
     description:
       " developed a full-stack learning platform where users can browse and access courses uploaded by mentors across various topics. Using React.js for the frontend and Node.js with MongoDB Atlas for backend efficiency, the platform ensures seamless data handling. The responsive design, built with Tailwind CSS and CSS, ensures accessibility on all devices. With JavaScript and supporting libraries, the platform offers a smooth and user-friendly experience.",

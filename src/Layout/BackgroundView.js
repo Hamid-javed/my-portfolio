@@ -14,10 +14,10 @@ function BackgroundView({ children }) {
                 id="tsparticles"
                 init={particlesInit}
                 options={{
-                    // autoPlay: true,
+                    autoPlay: true,
                     // background: {
-                    // color: { value: "#000000" },
-                    // opacity: 1,
+                    //     color: { value: "#20262E" },
+                    //     opacity: 0,
                     // },
                     fpsLimit: 120,
                     interactivity: {

@@ -199,7 +199,8 @@ function Navbar() {
                     )}
 
                     {!showMenu && (
-                        <div className="hidden tm:block sm:block md:flex">
+                        <div
+                            id='cv' className="hidden tm:block sm:block md:flex">
                             <MyCV />
                         </div>
                     )}
