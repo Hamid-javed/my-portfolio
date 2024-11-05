@@ -211,7 +211,7 @@ function Contact() {
       </div>
 
       {/* Footer Section */}
-      <div className='flex justify-center items-center font-light text-xs sm:text-base mt-12 mb-2'>
+      <div className='flex justify-center items-center font-light text-xs sm:text-base mt-12 pb-4'>
         Copyright © 2024
         <span className='font-semibold'>&nbsp;Hamid&nbsp;</span>
         All Rights Reserved

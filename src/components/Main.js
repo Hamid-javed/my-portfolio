@@ -28,20 +28,15 @@ function Main() {
                     </p>
 
                 </div>
-                <div className="flex py-[10px] tm:mt-[40px] items-start mt-[-30px] tm:pr-0 sm:pr-0 sm:justify-between sm:flex-col">
-                    <div className="box" >
-                        <div className="h-full justify-end flex items-center sm:justify-center">
-                            <img
-                                src={myImage}
-                                alt="main"
-                                className="h-[80%] min-h-[100px] min-w-[100px] tm:h-[36px] tm:mt-[200px] sm:min-h-[100px] sm:min-w-[100px] sm:ml-[30px]"
-                            />
-                        </div>
-
-
-                    </div>
-
-
+                <div className="flex py-[10px] tm:mt-[40px] items-start mt-[-30px] tm:pr-0 sm:pr-0 sm:justify-between sm:flex-col relative h-full w-full">
+                    {/* <div className="h-full justify-end flex items-center sm:justify-center relative"> */}
+                    <img
+                        src={myImage}
+                        alt="main"
+                        className="
+                               absolute h-full min-h-[100px] min-w-[100px] tm:h-[36px] tm:mt-[200px] sm:min-h-[100px] sm:min-w-[100px] sm:ml-[30px]"
+                    />
+                    {/* </div> */}
                 </div>
                 <div className="flex place-content-center mt-7 ">
                     <div className="flex flex-row sm:flex-col gap-4">
