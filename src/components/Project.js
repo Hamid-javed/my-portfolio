@@ -26,8 +26,8 @@ function Projects({ image, name, live, source, desc }) {
                 </div>
             </div>
 
-            <div className='w-full sm:w-1/2 relative'>
-                <img alt='project' src={image} className='rounded-md w-full sm:w-[60%]    ' />
+            <div className='w-full sm:w-[65%] relative'>
+                <img alt='project' src={image} className='rounded-md w-full sm:w-[60%]' />
             </div>
         </div>
     );

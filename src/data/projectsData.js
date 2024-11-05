@@ -47,16 +47,6 @@ const ProjectsData = [
       "Multi-page space tourism website provides relevent information for users. It has a responsive design and navigation. A large and complex project that required me to plan ahead and break down the work into smaller chunks. I used React.js to build the website and CSS3 for styling.",
 
   },
-  // {
-  //   id: "cloud-storage",
-  //   img: AWS,
-  //   name: "Cloud Storage with AWS Simple Storage Service",
-  //   stack: ["< AWS S3 /> " , "< JavaScript /> " , "< Express.js />"],
-  //   live: "",
-  //   source: "https://github.com/rimshub/cloud-storage-s3",
-  //   description:  
-  //       "This challenge from frontendmentor tested my skills to create dropdown navigation menus, a common pattern on larger sites. It also has some nice basic layout challenge",
-  // },
 
   {
     id: "E-Learn-admin",
