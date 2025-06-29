@@ -1,4 +1,3 @@
-import React from 'react';
 
 const DownloadCVButton = () => {
     const pdfUrl = '/MyCV.pdf';
