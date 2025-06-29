@@ -91,6 +91,17 @@ const ProjectsData = [
   //     "Multi-page space tourism website provides relevent information for users. It has a responsive design and navigation. A large and complex project that required me to plan ahead and break down the work into smaller chunks. I used React.js to build the website and CSS3 for styling.",
 
   // },
+  // {
+  //   id: "DemoPortfolio",
+  //   img: DemoPortfolio,
+  //   name: "A Demo Portfolio",
+  //   stack: ["< React.js />", "< CSS3 />"],
+  //   live: "https://portfolio-practice-demo.netlify.app/",
+  //   source: "https://github.com/Hamid-javed/Demo-Portfolio.git",
+  //   description:
+  //     "Multi-page space tourism website provides relevent information for users. It has a responsive design and navigation. A large and complex project that required me to plan ahead and break down the work into smaller chunks. I used React.js to build the website and CSS3 for styling.",
+
+  // },
 
 
 
