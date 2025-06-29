@@ -26,7 +26,7 @@ const expData = [
     org: "Hello World",
     title: "MERN Stack Developer",
     date: "June - 2025 - continue",
-    description: "I’m currently working as a MERN Stack Developer, where I build dynamic, scalable, and user-friendly web applications using MongoDB, Express.js, React.js, and Node.js. I focus on developing clean APIs, responsive UIs, and integrating third-party services to deliver high-performance full-stack solutions.",
+    description: "I'm currently working as a MERN Stack Developer, where I build dynamic, scalable, and user-friendly web applications using MongoDB, Express.js, React.js, and Node.js. I focus on developing clean APIs, responsive UIs, and integrating third-party services to deliver high-performance full-stack solutions.",
   },
 ];
 
